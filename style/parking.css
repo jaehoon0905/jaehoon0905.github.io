@@ -1,0 +1,31 @@
+@import url("./common.css");
+
+html,
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img:nth-child(2) {
+  margin: 0 0.3rem;
+  filter: brightness(0) invert(1);
+}
+
+h1 {
+  font-family: "Blackadder ITC";
+  text-transform: lowercase;
+  font-size: 3rem;
+}
+
+body > img {
+  margin: 4rem 0 2rem 0;
+}
